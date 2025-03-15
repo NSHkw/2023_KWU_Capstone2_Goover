@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#111111">
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/categoryVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/titleVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/memoVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/cycleVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/dateVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#afdcec"
+        android:visibility="invisible"/>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#111111"
+        >
+    </androidx.viewpager2.widget.ViewPager2>
+    <EditText
+        android:id="@+id/answerInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="정답을 입력해 주세요"
+        android:textColorHint="#767676"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/submitAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정답 맞추기"
+        android:textSize="20sp"
+        android:paddingVertical="16dp"/>
+    <Button
+        android:id="@+id/seeAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정답 보기"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <layer-list>
+        <item>
+            <shape android:shape="rectangle">
+                <!-- #f5f5f5" 색으로 채움 -->
+                <solid android:color="#ffffff"/>
+                <corners android:radius="12dp" />
+                <!-- 1dp 크기의 #000000 색 테두리 -->
+                <stroke
+                    android:width="1dp"
+                    android:color="#E6DFF9"
+                    />
+                <padding android:right="12dp" />
+            </shape>
+        </item>
+        <item
+            android:drawable="@drawable/down"
+            android:gravity="center|end"
+            android:width="21dp"
+            android:height="21dp"
+            />
+
+    </layer-list>
+</item>
+</selector>

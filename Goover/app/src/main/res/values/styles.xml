@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomMaterialCalendarViewHeaderSt">
+        <item name="android:textAppearance">@font/nanumgothicbold</item>
+    </style>
+    <style name="CustomMaterialCalendarViewbodySt">
+        <item name="android:textAppearance">@font/nanumgothic</item>
+    </style>
+
+</resources>
